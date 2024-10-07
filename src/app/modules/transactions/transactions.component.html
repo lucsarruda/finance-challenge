@@ -82,7 +82,7 @@
     <!-- Main -->
     <div class="flex flex-auto overflow-hidden">
         
-        <div class="flex flex-col flex-auto sm:mb-13 overflow-hidden sm:overflow-y-auto"  *ngIf="dataCount > 0; else noData">
+        <div class="flex flex-col flex-auto sm:mb-13 overflow-hidden sm:overflow-y-auto" >
             
             <div class="table-responsive py-5 px-5" >
                 <table mat-table [dataSource]="dataSource" matSort>
@@ -144,11 +144,6 @@
             </div>
             <mat-paginator [pageSizeOptions]="[10, 20 , 50, 100]"></mat-paginator>
         </div>
-
-
-        <ng-template #noData>
-            <div class="p-8 sm:p-16 border-t text-2xl font-semibold tracking-tight text-center">Ainda não há aplicativos cadastraos. Cadastre um aplicativo.</div>
-        </ng-template>
 
         <mat-card class="dollar-rate-card">
             <h2>Cotação do Dólar</h2>
