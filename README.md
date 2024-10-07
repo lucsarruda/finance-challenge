@@ -9,7 +9,7 @@
 
 
 ## 🔗 Link
-https://finance-challenge.web.app/transactions
+https://finance-challenge.web.app/
 
 
 
